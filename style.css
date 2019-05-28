@@ -1,0 +1,117 @@
+body, html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+#main-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 300%;
+  width: 100%;
+  overflow: hidden;
+}
+
+#block-1 {
+  height: 100%;
+  width: 100%;
+  background-image: url("k1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#knapp1 {
+  background-color: blue;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  height: 20px;
+  width: 80px;
+}
+
+.textbox {
+  height: 33.33%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-content: flex-end;
+}
+
+#block-2 {
+  height: 100%;
+  width: 100%;
+  background-image: url("k2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#knapp2 {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  height: 20px;
+  width: 80px;
+}
+.textbox2 {
+  height: 33.33%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-content: flex-end;
+}
+
+#block-3 {
+  height: 100%;
+  width: 100%;
+  background-image: url("k2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#knapp3 {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  height: 20px;
+  width: 80px;
+}
+
+.textbox2 {
+  height: 33.3333%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-content: flex-end;
+}
+
+.text1 {
+  font-size: 10px;
+  display: flex;
+  justify-content: flex-start;
+
+}
+
+.text2 {
+  font-size: 30px;
+  color: white;
+}
